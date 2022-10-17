@@ -24,7 +24,7 @@ background-size: cover;
 }
 
 
-h1{
+h1.header{
    border: 4px solid #262626;
    margin: 3px;
    padding: 3px;
@@ -38,8 +38,8 @@ h1{
 }
 
 .logo{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -51,6 +51,113 @@ h1{
     /* width: 360px;
     height: 240px; */
 }
+ .hometext{ /*position: absolute;
+    top: 400px; */
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    margin: 33px;
+}
+footer{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+    text-align:center;
+    border: 2px solid #262626;
+    justify-content: space-evenly;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+     text-align: center;
+ }
+.testamonialcontainer{
+    border: 2px solid #262626;
+    background-color: #88bde4;
+}
+ .container {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 6px;
+    margin: 6px;
+    width: 500px;
+  }
+  
+  
+  .container span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+
+  .c1 {
+    display: inline-block;
+  }
+
+
+  .c2 {
+    float: right;
+  }
+
+  .reviewbox{
+    border: 2px solid #262626;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*slideshow container*/
 
 /* .entiresscontainer{
