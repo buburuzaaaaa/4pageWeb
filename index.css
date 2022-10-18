@@ -60,6 +60,31 @@ h1.header{
     margin: 33px;
 }
 
+/* LOGO AND HOME PAGE MEDIA QUERY*/
+@media only screen and (max-width: 479px) {
+    .logo{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%; 
+        text-align: center;
+        background-color: #88bde4;
+        border-radius: 25px;
+        border: 2px solid #262626;
+        width: 360px;
+        height: 240px; 
+    }
+    .hometext{ 
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25px;
+        margin: 33px;
+ }
+
+}
+
 /* FOOTER FOR ALL PAGES EXCEPT GALLERY */
 footer{
 
@@ -124,7 +149,7 @@ h1{
     border: 2px solid #262626;
   }
 /* REVIEW/TESTIMONIAL MEDIA QUERY */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 479px) {
 .testamonialcontainer{
     border: 2px solid #262626;
     background-color: #88bde4;
@@ -177,7 +202,7 @@ legend {
 
 }
 /* MEDIA QUERY FOR ORDER FORM */
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 479px) {
     .fieldhead {
             margin: 10px;
             background-color: #88bde4;
@@ -194,7 +219,7 @@ legend {
         }
 }
 /*MEDIA QUERY FOR ALL PAGE HEADERS*/
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 479px) {
     
         .navbar{
             border: 2px solid #262626;
@@ -210,7 +235,7 @@ legend {
          .searchbar{
              font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
              position: relative;
-           bottom: 1px;
+           bottom: 0px;
          }
           a {
            text-decoration: none;
@@ -289,7 +314,7 @@ legend {
 }
 
 /* GALLERY CSS MEDIA QUERY */
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 479px) {
     p {
 
         color: black;
@@ -316,7 +341,7 @@ legend {
     .png4 {
         grid-area: png4;
 float: left;
-height: 480px;
+height: 479px;
 /* width: 320px; */
 transform: scale(1);
 transform: scaleX(.3);
@@ -406,7 +431,7 @@ display: none;
 
 /* .entiresscontainer{
     position: relative;
-    left:-480px;
+    left:-479px;
 }
 .gallery {
     width: 300px;
