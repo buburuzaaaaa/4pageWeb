@@ -14,35 +14,136 @@
 
 <header>
 <h1 class="header">Guinea Pig Dealers</h1>
-
-    <div class="navbar">
-        
+    <div class="navbar">       
         <a href="./index.html">Home</a><a href="./Our Pigs.html">Our Pigs</a> <a
         href="./Reviews.html">Reviews</a> <a href="./Order A Pig.html">Order A Pig</a>
-        
-
         <form>
                 <div class="searchbar"><input type="text" id="Search" name="Search" value="Search..." >
-                    <input type="submit" value="Submit"></div>
-                
-        </form>
-           
-    
+                    <input type="submit" value="Submit"></div>           
+        </form>   
     </div>
 </header>
 
 
 
 
+<form>
+    <fieldset class="fieldhead">
+        <legend>Buy a Pig Here!</legend>
+<div class="centerform">
+<form>
+    <br>
+    <h2>Account</h2>
+    <label for="name">Name<abbr title="Required">*</abbr>:</label>
+    <input type="text" id="name" name="user.name" required>
+    <br>
+    <label for="email">Email<abbr title="Required">*</abbr>:</label>
+    <input type="text" id="email" name="email.name" required>
+    <br>
+    <label for="pass">Password<abbr title="Required">*</abbr>:</label>
+    <input type="password" id="pass" name="password" required>
+
+    <br>
 
 
+    <h2>Payment Information</h2>
+    <label for="Cardtype">Choose a Card:</label>
+
+    <select name="Card" id="Card">
+        <option value="Visa">Visa</option>
+        <option value="Discover">Discover</option>
+        <option value="Master">Master</option>
+    </select>
+    <br>
+    <label for="cnumber">Card Number<abbr title="Required">*</abbr>:</label>
+    <input type="text" id="cnumber" name="Card.number" required>
+    <br>
+    <label for="expdate">Expiration Date<abbr title="Required">*</abbr>:</label>
+    <input type="date" id="expdate" name="exp.date" required>
+    <br>
+
+<br>
+<br>
+    </fieldset>
+</form>
+
+    </fieldset>
+</form>
+
+<fieldset  class="fieldhead">
+    <legend>Buy A Cage</legend>
+    <p>
+    
+        <input type="radio" id="XL Cage" name="cage" value="XL Cage">
+            <label for="XL Cage">Extra Large Cage</label>
+        <br>
+
+        <input type="radio" id="L Cage" name="cage" value="L Cage">
+            <label for="L Cage">Large Cage</label>
+        <br>
+
+        <input type="radio" id="Small Cage" name="cage" value="Small Cage">
+            <label for="Small Cage">Small Cage</label>
+        <br>
+
+
+        <input type="radio" id="No Cage" name="cage" value="No Cage">
+            <label for="Vanilla Milkshake">No Cage</label>
+        
+    <br>
+</fieldset>
+<br>
+
+
+<!--Pizza Preferences-->
+<fieldset  class="fieldhead">
+    <legend>What Breed(s)</legend>
+    
+        
+            <input type="checkbox" id="Abyssinian" name="Abyssinian" value="Abyssinian">
+            <label for="Abyssinian">Abyssinian</label>
+        <br>
+        <input type="checkbox" id="Alpaca" name="Alpaca" value="Alpaca">
+            <label for="Alpaca">Alpaca</label>
+        <br>
+        <input type="checkbox" id="American" name="American" value="American">
+            <label for="American">American</label>
+        <br>
+        <input type="checkbox" id="Baldwin" name="Baldwin" value="Baldwin ">
+            <label for="Baldwin">Baldwin</label>
+        <br>
+    <input type="checkbox" id="Coronet" name="Coronet" value="Coronet">
+    <label for="Coronet">Coronet</label>
+    <br>
+    <input type="checkbox" id="vehicle2" name="Himalayan" value="Himalayan">
+    <label for="Himalayan">Himalayan</label>
+    <br>
+    <input type="checkbox" id="Rex" name="Rex" value="Rex">
+    <label for="Rex">Rex</label>
+    <br>
+    <input type="checkbox" id="Teddy" name="Teddy" value="Teddy">
+    <label for="Teddy">Teddy</label>
+
+</fieldset>
+
+<!--Special Instructions-->
+<fieldset  class="fieldhead">
+    <legend>Want A Different Breed?</legend>
+    <p><label for="request">Input Breed Request:</label></p>
+    <textarea id="request" name="specialrequest" rows="4" cols="50">Input your special request here.</textarea>
+    <br>
+    <button type="submit"><a href="index.html"> Validate Payment </a><abbr title="Required">*</abbr></button>
+</fieldset>
+</form>
+
+</div>
 
 
 <footer>
     <span>Schedule: 9 AM - 3 PM Everyday</span>
     <br>
     <span>Contact Us:
-        <a href="mailto:GuineaPD@gmail.com">GuineaPD@gmail.com</a><a href="tel:+4733378901">47 333 78 901</a></span>
+        <a href="mailto:GuineaPD@gmail.com">GuineaPD@gmail.com</a><a href="tel:+4733378901"> or 47 333 78 901</a></span>
         <p>Created by Matthew and Andrew
         <br>
         Owned by GDP&copy; </p>
