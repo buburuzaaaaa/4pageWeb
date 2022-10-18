@@ -25,12 +25,13 @@ background-size: cover;
 
 
 h1.header{
-   border: 4px solid #262626;
+   border: 4px solid black;
    margin: 3px;
    padding: 3px;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-size: 60px;
     text-align: center;
+    background-color: whitesmoke;
 }
 *{
  margin: 0px;
@@ -163,12 +164,76 @@ h1{
 }
 
 
+@media only screen and (max-width: 470px) {
+    p {
+
+        color: red;
+    }
+
+
+
+    .png1 {
+        grid-area: png1;
+
+
+    }
+
+    .png2 {
+        grid-area: png2;
+
+    }
+
+    .png3 {
+        grid-area: png3;
+
+    }
+
+    .png4 {
+        grid-area: png4;
+float: left;
+height: 480px;
+/* width: 320px; */
+transform: scale(1);
+transform: scaleX(.3);
+justify-content: start;
+display: none;
+    }
+
+    .png5 {
+        grid-area: png5;
+
+    }
+
+    .png6 {
+        grid-area: png6;
+
+    }
+
+    .png7 {
+        grid-area: png7;
+
+    }
 
 
 
 
-
-
+    .gallery {
+        display: grid;
+        gap: 1px;
+        width: auto;
+        height: auto;
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(7, auto);
+        grid-template-areas:
+            "png1"
+            "png2"
+            "png3"
+            "png4"
+            "png5"
+            "png6"
+            "png7"; 
+        }
+}
 
 
 
