@@ -51,21 +51,21 @@ h1.header{
     /* width: 360px;
     height: 240px; */
 }
- .hometext{ /*position: absolute;
-    top: 400px; */
+ .hometext{ 
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
+    font-size: 35px;
     margin: 33px;
 }
+
 footer{
-    position: fixed;
+
    left: 0;
    bottom: 0;
-   width: 100%;
+   /* width: 99%; */
     text-align:center;
     border: 2px solid #262626;
-    justify-content: space-evenly;
+ 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 15px;
 }
@@ -75,17 +75,22 @@ h1{
     font-size: 45px;
      text-align: center;
  }
+
+ /* Reviews */
 .testamonialcontainer{
     border: 2px solid #262626;
     background-color: #88bde4;
+    height: 500px;
 }
  .container {
+    text-align: center;
     border: 2px solid #ccc;
     background-color: #eee;
     border-radius: 5px;
-    padding: 6px;
-    margin: 6px;
+    padding: 5px;
+    margin: 4px;
     width: 500px;
+    height: 70px;
   }
   
   
@@ -106,6 +111,43 @@ h1{
   .reviewbox{
     border: 2px solid #262626;
   }
+
+/* Order A Pig */
+.fieldhead {
+    text-align: center;
+    margin: 10px;
+    background-color: #88bde4;
+        list-style: none;
+}
+
+legend {
+    text-align: center;
+    border: 2px solid #262626;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: #262626;
+    margin: 5px;
+    background-color: #88bde4;
+
+}
+
+/* could be media query */
+.fieldhead {
+    margin: 10px;
+    background-color: #88bde4;
+
+} 
+  
+legend {
+    border: 2px solid #262626;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: #262626;
+    margin: 5px;
+    background-color: #88bde4;
+
+}
+
 
 
 
