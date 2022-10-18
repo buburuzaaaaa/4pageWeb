@@ -1,3 +1,4 @@
+/* NAVBAR/ HEADER */
 .navbar{
    border: 2px solid #262626;
    margin: 4px;
@@ -37,7 +38,7 @@ h1.header{
  margin: 0px;
  padding: 0%;
 }
-
+/* LOGO AND HOME PAGE */
 .logo{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
@@ -59,6 +60,7 @@ h1.header{
     margin: 33px;
 }
 
+/* FOOTER FOR ALL PAGES EXCEPT GALLERY */
 footer{
 
    left: 0;
@@ -68,7 +70,7 @@ footer{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 15px;
 }
-
+/* FOOTER FOR GALLERY */
 .gridfooter {
     width: 290%;
     left: 0;
@@ -79,13 +81,14 @@ footer{
     font-size: 15px;
 }
 
+/* HEADING */
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 45px;
      text-align: center;
  }
 
- /* Reviews */
+ /* REVIEW CSS */
 .testamonialcontainer{
     border: 2px solid #262626;
     background-color: #88bde4;
@@ -120,8 +123,42 @@ h1{
   .reviewbox{
     border: 2px solid #262626;
   }
+/* REVIEW/TESTIMONIAL MEDIA QUERY */
+@media only screen and (max-width: 480px) {
+.testamonialcontainer{
+    border: 2px solid #262626;
+    background-color: #88bde4;
+   
+}
+ .container {
+    justify-content: center;
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+     padding: 5px;
+    margin: 4px; 
+    width: 95%;
+     height: 70px;
+  }
+ 
 
-/* Order A Pig */
+  .reviewbox{
+    border: 2px solid #262626;
+  }
+  .container span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  .c1 {
+    display: block;
+  }
+
+
+  .extra{
+    display: none;
+  }
+}
+/* ORDER FORM CSS */
 .fieldhead {
     text-align: center;
     margin: 10px;
@@ -139,25 +176,63 @@ legend {
     background-color: #88bde4;
 
 }
-
-/* could be media query */
-.fieldhead {
-    margin: 10px;
-    background-color: #88bde4;
-
-} 
+/* MEDIA QUERY FOR ORDER FORM */
+@media only screen and (max-width: 470px) {
+    .fieldhead {
+            margin: 10px;
+            background-color: #88bde4;
+            color: black;
+        } 
   
-legend {
-    border: 2px solid #262626;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
-    color: #262626;
-    margin: 5px;
-    background-color: #88bde4;
-
+    legend {
+            border: 2px solid #262626;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 20px;
+            color: #262626;
+            margin: 5px;
+            background-color: #88bde4;
+        }
 }
-
-
+/*MEDIA QUERY FOR ALL PAGE HEADERS*/
+@media only screen and (max-width: 470px) {
+    
+        .navbar{
+            border: 2px solid #262626;
+            margin: 4px;
+             font-size: small;
+             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+             display: flex;
+             justify-content: space-evenly;
+             text-decoration: none;
+             text-decoration-color: #262626;
+             background-color: #88bde4;
+         }
+         .searchbar{
+             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+             position: relative;
+           bottom: 1px;
+         }
+          a {
+           text-decoration: none;
+           color:#262626;
+          }
+         body{
+         background-image: url("./pig pics/sky3.jpg");
+         background-size: cover;
+         }
+         
+         
+         h1.header{
+            border: 4px solid black;
+            margin: 3px;
+            padding: 3px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
+             text-align: center;
+             background-color: whitesmoke;
+         }
+}
+/* GALLERY CSS */
 
 .png1{
     grid-area: png1;
@@ -213,11 +288,11 @@ legend {
 
 }
 
-
+/* GALLERY CSS MEDIA QUERY */
 @media only screen and (max-width: 470px) {
     p {
 
-        color: red;
+        color: black;
     }
 
 
