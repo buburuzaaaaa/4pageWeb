@@ -108,6 +108,60 @@ h1{
   }
 
 
+.png1{
+    grid-area: png1;
+    height: 20rem;
+    width: 30rem;
+}
+.png2{
+    grid-area: png2;
+    height: 20rem;
+        width: 30rem;
+}
+.png3{
+    grid-area: png3;
+    height: 20rem;
+        width: 30rem;
+}
+.png4{
+    grid-area: png4;
+    height: 40rem;
+        width: 100rem;
+        transform: scale(.5,1);
+}
+.png5{
+    grid-area: png5;
+    height: 20rem;
+        width: 30rem;
+}
+.png6{
+    grid-area: png6;
+    height: 20rem;
+        width: 30rem;
+}
+.png7{
+    grid-area: png7;
+    height: 20rem;
+        width: 30rem;
+}
+
+
+
+
+.gallery {
+    display: grid;
+    gap: 10px;
+    width: auto;
+    height: auto;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+"png1 png2 png3"
+"png4 png4 png4 "
+"png5 png6 png7";
+
+}
+
 
 
 
