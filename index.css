@@ -363,7 +363,16 @@ display: none;
         grid-area: png7;
 
     }
-
+.gridfooter {
+    width:auto;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    border: 2px solid #262626;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    grid-area: gridfooter;
+}
 
 
 
@@ -373,7 +382,7 @@ display: none;
         width: auto;
         height: auto;
         grid-template-columns: repeat(1, auto);
-        grid-template-rows: repeat(7, auto);
+        grid-template-rows: repeat(8, auto);
         grid-template-areas:
             "png1"
             "png2"
@@ -381,10 +390,16 @@ display: none;
             "png4"
             "png5"
             "png6"
-            "png7"; 
+            "png7"
+            "gridfooter" ;
         }
 }
+/* video css*/
 
+video{
+    border: #262626;
+    border-width: 10px;
+}
 
 
 
