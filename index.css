@@ -24,7 +24,11 @@ background-image: url("./pig pics/sky3.jpg");
 background-size: cover;
 }
 
-
+.headerlogo{
+    float:left;
+    height: 70px;
+    width: 100px;
+}
 h1.header{
    border: 4px solid black;
    margin: 3px;
@@ -61,7 +65,12 @@ h1.header{
 }
 
 /* LOGO AND HOME PAGE MEDIA QUERY*/
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 480px) {
+    .headerlogo {
+            float: left;
+            height: 35px;
+            width: 50px;
+        }
     .logo{
             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 30px;
@@ -132,10 +141,12 @@ h1{
   
   
   .container span {
-    font-size: 20px;
+    font-size: 30px;
     margin-right: 15px;
   }
-
+ .container p {
+    font-size: 20px;
+ }
   .c1 {
     display: inline-block;
   }
@@ -149,7 +160,7 @@ h1{
     border: 2px solid #262626;
   }
 /* REVIEW/TESTIMONIAL MEDIA QUERY */
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 480px) {
 .testamonialcontainer{
     border: 2px solid #262626;
     background-color: #88bde4;
@@ -182,6 +193,9 @@ h1{
   .extra{
     display: none;
   }
+  .reviewhead {
+    font-size: 30px;
+  }
 }
 /* ORDER FORM CSS */
 .fieldhead {
@@ -202,7 +216,7 @@ legend {
 
 }
 /* MEDIA QUERY FOR ORDER FORM */
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 480px) {
     .fieldhead {
             margin: 10px;
             background-color: #88bde4;
@@ -219,7 +233,7 @@ legend {
         }
 }
 /*MEDIA QUERY FOR ALL PAGE HEADERS*/
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 480px) {
     
         .navbar{
             border: 2px solid #262626;
@@ -314,7 +328,7 @@ legend {
 }
 
 /* GALLERY CSS MEDIA QUERY */
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 480px) {
     p {
 
         color: black;
@@ -341,7 +355,7 @@ legend {
     .png4 {
         grid-area: png4;
 float: left;
-height: 479px;
+height: 480px;
 /* width: 320px; */
 transform: scale(1);
 transform: scaleX(.3);
@@ -451,7 +465,7 @@ iframe {
 
 /* .entiresscontainer{
     position: relative;
-    left:-479px;
+    left:-480px;
 }
 .gallery {
     width: 300px;
