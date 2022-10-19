@@ -402,7 +402,12 @@ video{
 }
 
 
-
+iframe {
+    height: 120px;
+    width: 200px;
+    position: relative;
+    left: 80rem;
+}
 
 
 
@@ -548,3 +553,16 @@ video{
         opacity: 1
     }
 } */
+/*iframe {
+    height: 120px;
+    width: 200px;
+    position: relative;
+    left: 80rem;
+    down: 20rem;
+
+}
+
+p {
+    float: right;
+    padding-right: 150px;
+}
